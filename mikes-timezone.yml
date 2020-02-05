@@ -17,4 +17,4 @@
       
       - name: Set hostname
         hostname:
-        name: "{{ hostname }}"
+          name: "{{ hostname }}"
