@@ -8,7 +8,7 @@
       hostname: MikeS-server
       tz: Pacific/Honolulu
       
-     tasks:
+    tasks:
       - name: Set timezone to "{{ tz }}"
         timezone:
           name: "{{ tz }}"
