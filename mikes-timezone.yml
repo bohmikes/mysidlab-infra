@@ -6,7 +6,7 @@
   become: true
   vars:
     hostname: mikes-server
-    tz: Pacific/Honolulu
+    tz: Antarctica/McMurdo
     
   tasks:
     - name: Set timezone to "{{ tz }}"
